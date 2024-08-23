@@ -1,33 +1,70 @@
-# React Authentication with Frontegg & Material-UI
-This project showcases a basic structure of a React application that has Frontegg for the login; additional features are MUI. Extra touches are an authors’ gradient button and a styled background box. By using the flow, the users are capable of signing in, viewing profile, accessing the settings as well as signing out.
+# Getting Started with Create React App
 
-Features
-Authentication: Based on Frontegg’s authentication system.
-Custom UI Components: Written in Material-UI and styled the buttons and containers in my own manner.
-Admin Portal: Makes the admin portal readable by any user proven to be authenticated.
-Responsive Design: It should be equally responsive and friendly to navigate since it will be run as an application.
-How to Run
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-Install Dependencies
+In the project directory, you can run:
 
-npm install
+### `npm start`
 
-MUI installation 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Frontegg installation
+### `npm test`
 
-npm install @frontegg/react react-router-dom
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Start the Application
-npm start
+### `npm run build`
 
-Navigate to `http:for networking the application can be run on the local host by typing http://localhost:3000 that should provide an interface for the application.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Dependencies
-React: As a payment for the development of the graphical user interface of the program.
-Material-UI: For styling and dynamic part it is using.
-Frontegg: To verify users, as well as for the administration of the users.
-React Router: For probably, giving directions and in most probably getting the correct route.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
