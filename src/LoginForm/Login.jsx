@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect } from 'react';
 import { useAuth, useLoginWithRedirect, ContextHolder } from "@frontegg/react";
 import { Button, Container, Box, Typography, Card, CardContent, Avatar, Divider } from '@mui/material';
 import { styled } from '@mui/material/styles';
@@ -33,6 +34,14 @@ const BackgroundBox = styled(Box)({
 function Login() {
   const { user, isAuthenticated } = useAuth();
   const loginWithRedirect = useLoginWithRedirect();
+  
+
+  useEffect(() => {
+    if (!isAuthenticated) {
+  loginWithRedirect();
+    }
+  }, [isAuthenticated, loginWithRedirect]); 
+
 
   const logout = () => {
     const baseUrl = ContextHolder.getContext().baseUrl;
