@@ -13,7 +13,8 @@ const GradientButton = styled(Button)(({ theme }) => ({
   borderRadius: 3,
   boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
   color: 'white',
-  height: 48,
+  height: "50px",
+  width:"250px" ,
   padding: '0 30px',
   margin: theme.spacing(1),
   transition: 'background 0.3s ease-in-out',
@@ -34,14 +35,13 @@ const BackgroundBox = styled(Box)({
 function Login() {
   const { user, isAuthenticated } = useAuth();
   const loginWithRedirect = useLoginWithRedirect();
-  
 
+  
   useEffect(() => {
     if (!isAuthenticated) {
   loginWithRedirect();
     }
-  }, [isAuthenticated, loginWithRedirect]); 
-
+  }, [isAuthenticated, loginWithRedirect]);
 
   const logout = () => {
     const baseUrl = ContextHolder.getContext().baseUrl;
